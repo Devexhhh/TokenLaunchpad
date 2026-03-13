@@ -1,9 +1,10 @@
 import React from "react";
+import { TokenLaunchpad } from "./components/TokenLaunchpad";
 
 const App = () => {
   return (
     <>
-      <div className="text-2xl">Kumar Sujal</div>
+      <TokenLaunchpad />
     </>
   )
 }
